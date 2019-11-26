@@ -1,7 +1,7 @@
 * C:\Users\techw\Documents\Baja SAE\GitHub\not-code\LTspice\Strain Amplification Circuit\WheatstoneAndAmplifier - B.asc
 V1 3.3V 0 3.3
 V2 5V 0 10
-R1 N001 N002 R={350-(0.7084*SIN(10*time))}
+R1 N001 N002 R={350-(0.7084*sin(10*time))}
 R2 N001 N003 R={350+(0.7084*sin(10*time))}
 R3 N002 0 R={350+(0.7084*sin(10*time))}
 R4 N003 0 R={350-(0.7084*sin(10*time))}
@@ -9,10 +9,10 @@ R12 3.3V Offset 1644.43 tol=5 pwr=.5
 R13 Offset 0 5.566 tol=5 pwr=.5
 V3 0 -5V 0
 XU1 N005 N004 5V -5V Vout LF356
-R6 N004 N003 1k tol=5 pwr=.5
-R7 N005 N002 1k tol=5 pwr=.5
-R8 Vout N004 141163.1846 tol=5 pwr=.5
-R9 N005 0 141163.1846 tol=5 pwr=.5
+R6 N004 N003 100k tol=5 pwr=.5
+R7 N005 N002 100k tol=5 pwr=.5
+R8 Vout N004 14116.31846k tol=5 pwr=.5
+R9 N005 0 14116.31846k tol=5 pwr=.5
 V4 N001 0 5
 .tran 0 4 0 0.00001
 .lib LF356.sub

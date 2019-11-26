@@ -10,20 +10,20 @@ Circuit: * C:\Users\techw\Documents\Baja SAE\GitHub\not-code\LTspice\Strain Ampl
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Nov 26 14:31:36 2019
-Total elapsed time: 16.075 seconds.
+Date: Tue Nov 26 14:52:16 2019
+Total elapsed time: 16.396 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 800064
-traniter = 800034
+totiter = 800089
+traniter = 800040
 tranpoints = 400018
 accept = 400018
 rejected = 0
 matrix size = 43
-fillins = 38
+fillins = 34
 solver = Normal
-Matrix Compiler1: 3.87 KB object code size  0.9/0.4/[0.2]
-Matrix Compiler2: off  [0.4]/0.5/0.9
+Matrix Compiler1: 3.63 KB object code size  0.8/0.4/[0.2]
+Matrix Compiler2: 3.94 KB object code size  0.3/0.7/[0.3]
 
