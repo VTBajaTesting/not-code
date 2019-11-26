@@ -1,0 +1,51 @@
+Questionable use of curly braces in "b§r1 5v n004 r={350-(0.7084*sin(10*time))}"
+    Error: undefined symbol in: "350-(0.7084*sin(10*[time]))"
+Questionable use of curly braces in "b§r2 5v n005 r={350+(0.7084*sin(10*time))}"
+    Error: undefined symbol in: "350+(0.7084*sin(10*[time]))"
+Questionable use of curly braces in "b§r3 n004 0 r={350+(0.7084*sin(10*time))}"
+    Error: undefined symbol in: "350+(0.7084*sin(10*[time]))"
+Questionable use of curly braces in "b§r4 n005 0 r={350-(0.7084*sin(10*time))}"
+    Error: undefined symbol in: "350-(0.7084*sin(10*[time]))"
+Circuit: * C:\Users\techw\Documents\Baja SAE\GitHub\not-code\LTspice\Strain Amplification Circuit\WheatstoneAndAmplifier.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Tue Nov 26 12:50:22 2019
+Total elapsed time: 24.591 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 801667
+traniter = 800034
+tranpoints = 400018
+accept = 400018
+rejected = 0
+matrix size = 74
+fillins = 113
+solver = Normal
+Matrix Compiler1: 9.63 KB object code size  4.2/3.8/[1.0]
+Matrix Compiler2: 7.92 KB object code size  1.1/1.5/[0.7]
+
