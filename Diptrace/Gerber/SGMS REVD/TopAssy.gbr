@@ -4,6 +4,7 @@ G04 TopAssy.gbr*
 G04 #@! TF.FileFunction,Drawing,Top*
 G04 #@! TF.Part,Single*
 %ADD10C,0.25*%
+G04 #@! TA.AperFunction,Nonconductor*
 %ADD51C,0.07843*%
 %FSLAX35Y35*%
 G04*

@@ -4,6 +4,7 @@ G04 BottomSilk.gbr*
 G04 #@! TF.FileFunction,Legend,Bot*
 G04 #@! TF.Part,Single*
 %ADD12C,0.0762*%
+G04 #@! TA.AperFunction,Nonconductor*
 %ADD48C,0.39216*%
 %FSLAX35Y35*%
 G04*
